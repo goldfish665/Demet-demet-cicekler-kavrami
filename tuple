@@ -1,0 +1,6 @@
+Listeleme kavrami gibi coklu veri depolayabildiğimiz kavrama denir.
+Ancak liste elemanlari degistirilebilirken, demet elemanlari degistirilemez.
+demet elemanlarinda normal parantez kullanilir.
+ör:
+fizksel_ozellikler=[1.60,50] => listeleme degisebilir
+kisisel_ozellikler=("kadin","nur") => demet degisemez
