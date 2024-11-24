@@ -1,0 +1,18 @@
+Birbiriyle ilişkili düzenli bir yapı oluşturmak için kullanılır.
+Süslü parantezle oluşturulur.
+Anahtar-Değer ilişkisi
+Anahtar veri her daim string tipinde olmalıdır.
+Anahtar_Değer arasına iki nokta konulur.
+ör;
+
+calisan={
+"adi":"ali",
+"soyadi":"yilmaz",
+"sigorta parasi":72640,
+"yillikzamorani":57,
+"maas":70000,
+}
+maas_zam_orani=int(input("ne kadar zam yapalim:"))
+calisan["yillikzamorani"]=maas_zam_orani
+calisan["maas"]+=calisan["maas"]*calisan["yillikzamorani"]/100
+print(calisan)
